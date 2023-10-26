@@ -1,0 +1,142 @@
+
+/* CSS Reset - Remove default list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #302447;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+    color: rgb(247, 124, 9);
+    text-transform: uppercase;
+    background-color: #f4f4f4;
+}
+
+/* Style sections */
+section {
+    background-color: rgb(250, 247, 244);
+    padding: 40px;
+    text-align: center;
+}
+
+#home2{
+    background-image: url(works/steve.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    display: inline-block;
+}
+/* Style the slider */
+.slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.slider img {
+    width: 85%;
+    height: 60vh;
+}
+
+/* Additional styles for the "Testimonials" and "Team" sections */
+#testimonials {
+    padding: 40px;
+    background-color: rgb(241, 243, 245);
+}
+
+.testimonial-container {
+    text-align: center;
+}
+
+.testimonial {
+    display: none;
+    padding: 20px;
+    border: 3px solid #ddd;
+    margin: 10px;
+    background-color: #f7ecec;
+    border-bottom: 7px;
+    border-end-end-radius: 60px;
+}
+
+.testimonial-controls {
+    color: white;
+    margin-top: 20px;
+}
+.testimonial-controls button{
+    color: aliceblue;
+    background-color: rgb(141, 119, 124);
+}
+.testimonial-controls button:hover{
+    color: rgb(58, 52, 54);
+    background-color:aliceblue;
+}
+#team {
+    background-color: #f4f4f4;
+    padding: 40px;
+    
+}
+
+.team-member {
+    
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e0ddde;
+    border: 4px solid linen;
+    border-radius: 10px;
+
+}
+.team-member img{
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+    border-radius: 60px;
+}
+
+/* Additional styles for the "Contact" section */
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-image: url(works/contact.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(.9);
+    color: #5813d8;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
