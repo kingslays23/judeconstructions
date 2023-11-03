@@ -47,6 +47,8 @@ section {
     height: 100%;
     color: aliceblue;
     display: inline-block;
+    text-decoration: overline;
+    text-decoration-color: rgb(233, 201, 201);
 }
 /* Style the slider */
 .slider {
@@ -106,16 +108,25 @@ section {
     background-color: #e0ddde;
     border: 4px solid linen;
     border-radius: 10px;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .team-member img{
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
     border-radius: 60px;
+    overflow: hidden;
 }
 
+.team-member div{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+   
+}
 /* Additional styles for the "Contact" section */
 #contact {
     padding: 40px;
